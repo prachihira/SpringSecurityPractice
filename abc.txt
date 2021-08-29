@@ -1,0 +1,42 @@
+Git Learning
+
+1.clone command
+git clone url
+
+2. file add
+git add file name
+
+3.remove file
+git rm -f file name
+
+4. status check
+git status
+
+5.for configuartion
+Configuration setting
+ git config --global user.email "prachihira93@gmail.com"
+ git config --global user.name "Prachihira Mohanty"
+ 
+6.for commit
+ git commit -m "This is my first commit"
+ 
+7.for push to head
+ git push
+ 
+8.for pull from head
+ git pull
+ 
+9.for unstage
+ git restore filename
+ 
+10.for adding all the files
+git add --all
+
+11. For creating new Branch
+git checkout -b development
+
+12.to add an upstream branch
+git push --set-upstream origin development
+
+13.for switching the branch(for check out)
+git checkout <branchname>
